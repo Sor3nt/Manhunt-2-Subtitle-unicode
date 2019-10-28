@@ -24,7 +24,7 @@ void __cdecl Print8(int translation, float a2, float a3, float a4, float a5, flo
 	const wchar_t* text = (const wchar_t*)translation;
 
 	WriteDebugDrawText((int)local_208, text);
-	((void(__cdecl*)(int, float, float, float, float, float, int, int))0x544180)((int)text, a2, a3, a4, a5, a6, a7, 0);
+	((void(__cdecl*)(int, float, float, float, float, float, int, int))0x544180)((int)text, 0.05, a3, a4, a5, a6, a7, 0);
 }
 
 extern "C"
